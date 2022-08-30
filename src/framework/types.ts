@@ -426,7 +426,7 @@ export interface OpenApiRequest {
   query?: Record<string, string>;
   queryStringParameters?: Record<string, string>;
   headers?: Record<string, string>;
-  body?: string;
+  body?: Record<string, unknown>;
   cookies?: Record<string, string>;
   path?: Record<string, unknown>;
   pathParameters?: Record<string, unknown>;
